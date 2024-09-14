@@ -1,0 +1,52 @@
+{
+  "name": "varporflow-startpage-extension",
+  "displayName": "Varporflow startpage",
+  "version": "1.0.0",
+  "description": "A simple bookmarks extension Build wit React,TypeScript and daisyUI components",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaelgoth/vaporflow-startpage.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "nodemon"
+  },
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "daisyui": "^2.51.5",
+    "openweathermap-ts": "^1.2.10",
+    "react": "^18.2.0",
+    "react-clock": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-live-clock": "^6.1.12",
+    "react-slide-fade-in": "^1.0.9",
+    "theme-change": "^2.3.0",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.10",
+    "@types/webextension-polyfill": "^0.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react-swc": "^3.0.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "fs-extra": "^11.1.1",
+    "nodemon": "^2.0.22",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
+  }
+}
